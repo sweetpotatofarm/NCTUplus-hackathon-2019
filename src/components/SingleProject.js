@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.css';
+import './Project.scss';
 import ProjectProcess from './ProjectProcess'
 
 class SingleProject extends React.Component {

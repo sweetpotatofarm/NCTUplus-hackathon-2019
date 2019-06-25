@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Project.css';
+import '../components/Project.scss';
 
 class ProjectProcess extends React.Component {
   // constructor(props){
