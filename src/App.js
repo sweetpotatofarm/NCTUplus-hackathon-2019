@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import MainPage from './pages/MainPage.js';
-import './pages/MainPage.css';
-import './components/Project.css';
+import UserFile from './components/UserFile'
+import Component from './component'
+import styles from './navbarscss.scss'
 
 class App extends React.Component {
   render(){
     return (
       <div>
-        <MainPage />
+        <Component></Component>
       </div>
     );
   }
