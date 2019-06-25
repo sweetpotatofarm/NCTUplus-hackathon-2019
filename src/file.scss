@@ -1,22 +1,23 @@
 .File{
-    top: 70px;
+    top: 90px;
     position: relative;
     display: flex;
-    width: 100%;
+    width: 800px;
+    height: 600px;
     justify-content: center;
     align-items: center;
-    
+    border: 1px brown solid;
 }
 
 .FileBackground{
-    background: #dcdcdc;
+    background: white;
     color: black;
     display: flex;
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
-    //border: solid #707070 3px;
+    border: solid #707070 3px;
     flex-direction: column;
 }
 
@@ -24,10 +25,11 @@
     font-size: 24px;
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 10%;
     align-items: center; 
     justify-content: center;
     color: black;
+    border: purple solid 1px;
     //border: #707070 solid 3px;
 }
 
@@ -38,37 +40,44 @@
 
 .FileWindows{
     display: flex;
-    width: 40rem;
-    height: 30rem;
+    width: 600px;
+    height: 300px;
     align-items: center;
-    justify-content: center;
-    /*border: #707070 solid 3px;*/
+    justify-content: flex-start;
+    flex-direction: column;
+    
     box-shadow: -0.5px -0.5px 0.5px  lightgray, 0.5px 0.5px 0.5px lightgray;
     flex-wrap: wrap;
-    background: white;
+    background: lightgray;
 }
 
 .FileSmallWindows{
     border: 1px red solid;
     display: flex;
-    width: 40rem;
-    height: 200px;
+    width: 60%;
+    height: 80%;
     flex-direction: column;
     align-items: center;
     background: white;
 }
 
+.FileButton {
+    display: flex;
+    width: 200px;
+    border: 1px red solid;
+}
+
 .CloseButton{
     position: relative;
-    left: 350px;
-    bottom: 5px;
+    left: 280px;
+    
     display: flex;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    background: lightgray;
+    background: white;
     border: lightgray solid 1px;
 }
 
@@ -79,8 +88,8 @@
 
 .FirstFile{
     display: flex;
-    width: 80%;
-    height: 25%;
+    width: 100%;
+    height: 15%;
     justify-content: center;
     align-items: center;
     border: #707070 solid 1px;
@@ -88,8 +97,8 @@
 
 .SecondFile{
     display: flex;
-    width: 80%;
-    height: 25%;
+    width: 100%;
+    height: 15%;
     justify-content: center;
     align-items: center;
     border: #707070 solid 1px;
@@ -104,9 +113,9 @@
 }
 
 .ConfirmButton{
+    display: flex;
     position: relative;
     left: 50px;
-    top: 10px;
     border: #707070 solid 2px;
     width: 50px;
     height: 40px;
@@ -117,8 +126,8 @@
 
 .CancelButton{
     position: relative;
-    left: 120px;
-    bottom: 30px;
+    left: 60px;
+    
     border: #707070 solid 2px;
     width: 50px;
     height: 40px;

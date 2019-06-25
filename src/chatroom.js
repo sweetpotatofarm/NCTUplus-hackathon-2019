@@ -1,5 +1,5 @@
 import React from 'react'
-import Reactstyles from './chatroom.scss'
+import './chatroom.scss'
 
 class Chatroom extends React.Component{
     render(){

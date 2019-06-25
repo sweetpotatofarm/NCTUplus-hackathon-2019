@@ -1,12 +1,13 @@
 
 .container{
 width: 500px;
-  margin-top:50px;
-  margin-left:400px;
+  top: 90px;
+  position: relative;
   height: 350px;
   padding: 50px;
   border-width: 10px;
 background: white;
+
 }
 
 .tableContainer{
@@ -33,8 +34,11 @@ width: 200px;
 height: 50px;
 }
 .unGroupingContainer{
-width: 380px;
+position: relative;
+top: 90px;
+width: 320px;
 height: 902px;
+right: 30px;
 background: white;
 justify-content: center;
 flex-wrap:  wrap;

@@ -1,14 +1,15 @@
 .Chatroom{
+    position: relative;
+    right: 20px;
+    top: 90px;
     display: flex;
     width: 200px;
     justify-content: space-around;
     background: white;
-    border: black solid 2px;
+    border: blue solid 2px;
     height: 500px;
     flex-direction: column;
-    position: relative;
-    left: 1000px;
-    bottom: 550px;
+    
 }
 
 .ChatroomTitle{

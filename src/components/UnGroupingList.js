@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.scss';
 import User from '../picture/User.png';
 
-class UnGropingList extends React.Component{
+class UnGroupingList extends React.Component{
 	render(){
 		return(
 				<div className="unGroupingContainer">
