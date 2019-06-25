@@ -1,18 +1,19 @@
 import React from 'react'
-import styles from './navbarscss.scss'
-class Navbar extends React.Component{
+import navbarstyles from './navbarscss.scss'
+import filestyles from './file.scss'
+import Navbar from './navbar'
+import File from './file'
+
+class Component extends React.Component{
     render(){
         return (
-            <div className="Navbar">
-                <div className="NavbarTitle">GrouPotato
-                </div>
-                <div className="NavbarUser">王志強
-                </div>
+            <div className="component">
+                <Navbar></Navbar>
+                <File></File>
             </div>
-
         )
     }
 } 
 
 
-export default Navbar
+export default Component
