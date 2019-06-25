@@ -1,0 +1,37 @@
+.project {
+    background-color: #DBA37D;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+    text-align: center;
+    
+    color: white;
+}
+.projectsTitle{
+    font-size: 20px;
+}
+.singleProject {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 80%;
+    left: 10%;
+    box-shadow: -0.5px 0px 1.5px  white, 0.5px 0.5px 1.5px black;
+}
+
+.projectProcess {
+    display: flex;
+    right: 1rem;
+    font-size: 12px;
+    background-color: #7A100B;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 20%;
+    border-radius: 25%;
+}
