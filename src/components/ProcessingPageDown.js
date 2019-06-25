@@ -2,13 +2,13 @@ import React from 'react';
 import '../pages/MainPage.scss';
 import Component from '../component.js'
 import Chatroom from '../chatroom'
-import Projects from '../components/Projects'
+import ContributeProcessList from '../components/ContributeProcessList'
 
 class ProcessingPageDown extends React.Component {
   render(){
     return (
       <div className="pageDown">
-        <Projects />
+        <ContributeProcessList />
         <Component />
         <Chatroom />
       </div>

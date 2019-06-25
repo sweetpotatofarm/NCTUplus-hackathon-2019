@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 650px;
     position: relative;
+    justify-content: space-around;
     width: 25%;
     text-align: center;
     top: 70px;
@@ -35,4 +36,48 @@
     height: 1rem;
     width: 20%;
     border-radius: 25%;
+}
+
+.nameContribute {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 80%;
+    left: 10%;
+    box-shadow: -0.5px 0px 1.5px  white, 0.5px 0.5px 1.5px black;
+    color: #FFF7B4;
+}
+
+.nameSide {
+    display: flex;
+    position: relative;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contributeSide {
+    position: relative;
+    right: 20px;
+}
+
+.contributeUpper {
+    position: relative;
+    top: -50px;
+}
+
+.contributeLower {
+    position: relative;
+    bottom: -20px;
+    width: 50%;
+    height: 80px;
+    font-size: 30px;
+    left: 25%;
+    align-content: center;
+    justify-content: center;
 }
