@@ -14,6 +14,7 @@ class File extends React.Component{
                               <div className="FirstFile">決策分析期末專題</div>
                               <div className="SecondFile">其他檔案</div>
                           </div>
+                          
                           <div className="FileButton">
                               <button className="ConfirmButton">確定</button>
                               <button className="CancelButton">取消</button>

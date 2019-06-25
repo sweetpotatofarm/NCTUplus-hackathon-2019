@@ -72,4 +72,4 @@ class UnGropingList extends React.Component{
 	}
 }
 
-export default UnGropingList;
+export default UnGroupingList;

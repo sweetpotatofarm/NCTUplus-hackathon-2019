@@ -1,8 +1,11 @@
 .File{
+    top: 70px;
+    position: relative;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 
 .FileBackground{
@@ -18,11 +21,13 @@
 }
 
 .FileTitle{
+    font-size: 24px;
     display: flex;
     width: 100%;
     height: 20%;
     align-items: center; 
     justify-content: center;
+    color: black;
     //border: #707070 solid 3px;
 }
 
@@ -33,19 +38,23 @@
 
 .FileWindows{
     display: flex;
-    width: 400px;
-    height: 300px;
+    width: 40rem;
+    height: 30rem;
     align-items: center;
     justify-content: center;
-    border: #707070 solid 3px;
+    /*border: #707070 solid 3px;*/
+    box-shadow: -0.5px -0.5px 0.5px  lightgray, 0.5px 0.5px 0.5px lightgray;
     flex-wrap: wrap;
     background: white;
 }
 
 .FileSmallWindows{
-    width: 370px;
+    border: 1px red solid;
+    display: flex;
+    width: 40rem;
     height: 200px;
     flex-direction: column;
+    align-items: center;
     background: white;
 }
 
@@ -70,7 +79,7 @@
 
 .FirstFile{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 25%;
     justify-content: center;
     align-items: center;
@@ -79,7 +88,7 @@
 
 .SecondFile{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 25%;
     justify-content: center;
     align-items: center;
