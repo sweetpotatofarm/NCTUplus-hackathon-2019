@@ -1,6 +1,7 @@
 import React from 'react';
 import './Project.scss';
 import ProjectProcess from './ProjectProcess'
+import {BrowserRouter,Switch,Route,Link} from 'react-router-dom'
 
 class SingleProject extends React.Component {
   constructor(props){
@@ -11,7 +12,7 @@ class SingleProject extends React.Component {
   }
   render(){
     return (
-      <div className="singleProject" >
+      <Link to='/ProgressingPage' className="singleProject" >
         {
           this.props.title
         }
@@ -20,7 +21,7 @@ class SingleProject extends React.Component {
           "Due: "+this.props.due
         }
         <ProjectProcess process="進行中"/>
-      </div>
+      </Link>
     );
   }
 }
